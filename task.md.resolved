@@ -1,0 +1,41 @@
+# Terraform Learning Task List
+
+- [x] Phase 1: Foundations (Day 1)
+    - [x] IaC Concepts, Providers, Init/Plan/Apply
+    - [x] Variables, Outputs, State
+    - [x] Remote Backend (Azure Storage)
+    - [x] Resource Group + VNet deployed
+- [ ] Phase 2: Terraform Depth & Structure (Day 2)
+    - [ ] Implicit vs Explicit Dependencies (`depends_on`)
+    - [ ] Data Sources
+    - [ ] Naming Conventions & Tagging
+    - [ ] Locals
+    - [ ] Subnet + NSG hands-on
+- [ ] Phase 3: Terraform Modules (Day 3)
+    - [ ] Root vs Child modules
+    - [ ] Create `modules/network`
+    - [ ] Module inputs and outputs
+- [ ] Phase 4: Environment Management (Day 4)
+    - [ ] Folder-based separation (dev/prod)
+    - [ ] Separate state files per env
+    - [ ] Workspaces (conceptual)
+- [ ] Phase 5: Container Apps via Terraform (Day 5)
+    - [ ] Container Apps Environment
+    - [ ] Container App with ingress
+    - [ ] Log Analytics + Managed Identity
+- [ ] Phase 6: Security & Identity (Day 6)
+    - [ ] Key Vault
+    - [ ] Managed Identity + RBAC
+    - [ ] Private Endpoints (conceptual)
+- [ ] Phase 7: Advanced HCL (Day 7)
+    - [ ] `for_each`, `count`, `dynamic`
+    - [ ] Lifecycle rules
+    - [ ] `terraform import`
+- [ ] Phase 8: AKS Speed Run (Day 8)
+    - [ ] Minimal cluster → explore → destroy
+- [ ] Phase 9: CI/CD for Terraform (Day 9)
+    - [ ] GitHub Actions (plan on PR, apply on merge)
+    - [ ] Azure OIDC login
+- [ ] Phase 10: Observability + Capstone (Day 10)
+    - [ ] Log Analytics, Alerts, Diagnostics
+    - [ ] Full 3-tier app rebuild via Terraform

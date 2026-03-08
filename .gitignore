@@ -1,0 +1,9 @@
+# Terraform Global Gitignore
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+envs/dev/.terraform/
+envs/prod/.terraform/
