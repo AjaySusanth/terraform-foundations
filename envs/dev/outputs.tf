@@ -12,9 +12,3 @@ output "app_url" {
   description = "The URL of the deployed container app"
   value       = "https://${module.app.latest_hostname}"
 }
-
-output "kube_config" {
-  description = "The raw kube_config for connecting with kubectl"
-  value = module.aks.kube_config_raw
-  sensitive = true
-}
