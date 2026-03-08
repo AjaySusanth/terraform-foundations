@@ -74,14 +74,3 @@ module "security" {
   tenant_id = data.azurerm_client_config.current.tenant_id
   
 }
-
-module "aks" {
-  source = "../../modules/aks"
-
-  project_name = var.project_name
-  location = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
-  tags = local.common_tags
-
-  subnet_id = module.network.subnet_ids["web-subnet"]
-}
