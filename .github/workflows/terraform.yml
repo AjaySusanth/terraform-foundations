@@ -21,7 +21,7 @@ jobs:
         working-directory: ./envs/dev
     steps:
     - name: Checkout
-      uses: actions/checkoout@v4
+      uses: actions/checkout@v4
 
     - name: Azure Login
       uses: azure/login@v2
